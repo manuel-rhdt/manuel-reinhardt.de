@@ -1,0 +1,26 @@
+---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+subtitle: "Notrufe und Sperrnummern"
+date: {{ .Date }}
+draft: true
+class: "safecalls"
+icon: "/safecalls/icon.png"
+applink: "http://itunes.apple.com/de/app/safe-calls-notrufe-und-sperrnummern/id331910456?mt=8"
+screenshots: ["/safecalls/Screenshot1.png", "/safecalls/Screenshot2.png", "/safecalls/Screenshot3.png", "/safecalls/Screenshot4.png", "/safecalls/Screenshot5.png"]
+---
+
+Ihnen ging ihre Geldbörse oder ihr Handy verloren, oder sie wurden ihnen gar entwendet.
+Sie müssen dringend einen Notruf absetzen. Sie benötigen Auskunft von ihrer Auto-Versicherung oder wollen einen Automobilverband kontaktieren.  
+In der Aufregung ist es nicht leicht, die richtige Telefonnummer zu finden.  
+Ist sie auch noch aktuell?  
+Für all diese Fälle wurde diese App entwickelt.  
+Hier finden sie die wichtigsten Notruf- und Sperrnummern für Deutschland, aktuell, übersichtlich und immer auf dem neuesten Stand.  
+Auf dem iPod Touch haben sie die Nummern stets zur Hand, mit dem iPhone können sie direkt aus der Applikation heraus mit der integrierten Wählfunktion telefonieren.  
+Neben speziellen Handynummern finden sie auch die vom Ausland zu wählenden Nummern mit Landesvorwahl.  
+Bewusst wurde die App nicht überladen um nach den wichtigsten Rufnummern nicht lange suchen zu müssen. Oft zählt jede Sekunde.  
+Warteschleifen und zeitraubende Weiterverbindungen können vermieden werden.  
+Auch das Icon ist so gestaltet, dass es sofort ins Auge fällt.  
+
+Diese Applikation ist ein Muss für jedermann und sollte auf keinem iPod Touch oder iPhone fehlen.
+
+Alle Telefonnummern wurden sorgfältig ermittelt und werden von uns stets für sie  aktualisiert. Irrtum und Änderungen vorbehalten.
