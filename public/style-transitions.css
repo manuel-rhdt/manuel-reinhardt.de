@@ -1,0 +1,22 @@
+#my-cars-submenu {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+}
+
+/* Assume that devices of width 1025px and larger are
+ * desktops - show the submenu on hover. Assume devices
+ * of width 1024px and smaller are touch-based (e.g. iPhone,
+ * iPad) - define a class which shows the submenu, applied
+ * when the menu is touched.
+ */
+@media only screen and (min-device-width: 1025px) {
+    li:hover #my-cars-submenu {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .touched #my-cars-submenu {
+        opacity: 1;
+    }
+}

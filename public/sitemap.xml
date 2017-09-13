@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/baumfinder/</loc>
+    <lastmod>2017-09-13T15:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/mycars/</loc>
+    <lastmod>2017-09-13T15:26:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/mycars_hd/</loc>
+    <lastmod>2017-09-13T15:26:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/safecalls/</loc>
+    <lastmod>2017-09-13T14:37:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/</loc>
+    <lastmod>2017-09-13T15:34:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://manuel-reinhardt.de/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
