@@ -9,6 +9,7 @@ applink: "http://itunes.apple.com/de/app/my-cars-hd-der-fuhrparkmanager/id364026
 screenshots: ["/mycars-hd/screenshot1.png", "/mycars-hd/screenshot2.png", "/mycars-hd/screenshot3.png", "/mycars-hd/screenshot4.png"]
 width: 192
 height: 256
+description: "My Cars - So haben Sie Ihre Autos im Griff!"
 ---
 
 Die Fuhrparkverwaltung für iPad.

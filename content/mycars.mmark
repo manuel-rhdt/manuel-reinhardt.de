@@ -9,6 +9,7 @@ applink: "http://itunes.apple.com/de/app/my-cars-die-fuhrparkverwaltung/id347852
 screenshots: ["/mycars/screenshot1.png", "/mycars/screenshot2.png", "/mycars/screenshot3.png", "/mycars/screenshot4.png", "/mycars/screenshot5.png"]
 width: 160
 height: 230
+description: "My Cars - So haben Sie Ihre Autos im Griff!"
 ---
 
 Die Fuhrparkverwaltung für iPhone und iPod Touch.
