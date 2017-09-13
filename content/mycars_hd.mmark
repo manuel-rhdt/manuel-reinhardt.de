@@ -2,7 +2,7 @@
 title: "My Cars HD"
 subtitle: "Die Fuhrparkverwaltung für iPad"
 date: 2017-09-13T15:26:53+02:00
-draft: true
+draft: false
 class: "mycars"
 icon: "/mycars/icon.png"
 applink: "http://itunes.apple.com/de/app/my-cars-hd-der-fuhrparkmanager/id364026085?mt=8"

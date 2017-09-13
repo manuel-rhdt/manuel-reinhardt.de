@@ -2,7 +2,7 @@
 title: "My Cars"
 subtitle: "Die Fuhrparkverwaltung"
 date: 2017-09-13T15:26:53+02:00
-draft: true
+draft: false
 class: "mycars"
 icon: "/mycars/icon.png"
 applink: "http://itunes.apple.com/de/app/my-cars-die-fuhrparkverwaltung/id347852555?mt=8"
