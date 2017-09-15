@@ -13,22 +13,20 @@
 	</head>
 	  
 	  <body onLoad="load()">
-	  		<nav id="navbar">
+			{{ partial "menu.html" . }}
+
+	  		<!-- <nav id="navbar">
 	  			<ul id="navigation-menu">
 	  				<li id="safe-calls"><a href="/safecalls/">Safe Calls</a>
 	  				</li><li id="my-cars"><a href="/mycars/">
 	  					My Cars</a>
-	  					<!--<ul id="my-cars-submenu" class="submenu">
-	  						<li><a href="../mycars/">iPhone</a></li>
-	  						<li><a href="../mycars_hd/">iPad</a></li>
-	  					</ul>-->
 	  				</li><li id="my-cars-hd"><a href="/mycars_hd/">
 	  					My Cars HD</a>
 	  				</li></li><li id="baumfinder"><a href="/baumfinder/">
 	  					Baumfinder</a>
 	  				</li>
 	  			</ul>
-	  		</nav>
+			  </nav> -->
 	  		
     		<article class="content">
 	  			<h1>{{ .Title }}</h1>
@@ -39,7 +37,7 @@
 			<aside id="sidebar">
 				<div id="quality-sign-container">
 					<a href="http://www.telefon.de/apps_uebersicht.asp?dev=6672">
-						<img src="../cooldeveloper.png" id="quality-sign">
+						<img src="/cooldeveloper.png" id="quality-sign">
 					</a>
 				</div>
 				<div id="contact">

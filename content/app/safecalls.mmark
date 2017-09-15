@@ -10,6 +10,11 @@ screenshots: ["/safecalls/Screenshot1.png", "/safecalls/Screenshot2.png", "/safe
 width: 160
 height: 230
 description: "Safe Calls - Notrufe und Sperrnummern. Mit dieser iPhone App haben Sie alle Notrufe, Kreditkarten- und Handysperrnummern immer zur Hand!"
+
+menu: 
+  apps:
+    weight: 1
+    identifier: safe-calls
 ---
 
 Ihnen ging ihre Geldbörse oder ihr Handy verloren, oder sie wurden ihnen gar entwendet.

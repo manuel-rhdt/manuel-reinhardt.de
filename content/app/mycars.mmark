@@ -1,18 +1,23 @@
 ---
-title: "My Cars HD"
-subtitle: "Der Fuhrparkmanager für iPad"
+title: "My Cars"
+subtitle: "Die Fuhrparkverwaltung"
 date: 2017-09-13T15:26:53+02:00
 draft: false
 class: "mycars"
 icon: "/mycars/icon.png"
-applink: "http://itunes.apple.com/de/app/my-cars-hd-der-fuhrparkmanager/id364026085?mt=8"
-screenshots: ["/mycars-hd/screenshot1.png", "/mycars-hd/screenshot2.png", "/mycars-hd/screenshot3.png", "/mycars-hd/screenshot4.png"]
-width: 192
-height: 256
+applink: "http://itunes.apple.com/de/app/my-cars-die-fuhrparkverwaltung/id347852555?mt=8"
+screenshots: ["/mycars/screenshot1.png", "/mycars/screenshot2.png", "/mycars/screenshot3.png", "/mycars/screenshot4.png", "/mycars/screenshot5.png"]
+width: 160
+height: 230
 description: "My Cars - So haben Sie Ihre Autos im Griff!"
+
+menu: 
+  apps:
+    weight: 2
+    identifier: my-cars
 ---
 
-Die Fuhrparkverwaltung für iPad.
+Die Fuhrparkverwaltung für iPhone und iPod Touch.
 
 Alle Termine und Fälligkeiten rund um ihre Autos stets griffbereit – von der Hauptuntersuchung über Steuer bis zur Versicherung.
 

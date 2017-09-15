@@ -1,0 +1,7 @@
+<nav id="navbar">
+    <ul id="navigation-menu">
+        {{ range .Site.Menus.apps -}}
+        <li id="{{ .Identifier }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}
+    </ul>
+</nav>
