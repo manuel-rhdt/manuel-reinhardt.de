@@ -12,7 +12,7 @@ height: 230
 description: "My Cars - So haben Sie Ihre Autos im Griff!"
 
 menu: 
-  apps:
+  main:
     weight: 2
     identifier: my-cars
 ---

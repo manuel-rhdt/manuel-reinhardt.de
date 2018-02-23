@@ -12,7 +12,7 @@ height: 230
 description: "Safe Calls - Notrufe und Sperrnummern. Mit dieser iPhone App haben Sie alle Notrufe, Kreditkarten- und Handysperrnummern immer zur Hand!"
 
 menu: 
-  apps:
+  main:
     weight: 1
     identifier: safe-calls
 ---

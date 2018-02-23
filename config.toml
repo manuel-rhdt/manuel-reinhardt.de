@@ -1,6 +1,25 @@
 baseURL = "https://manuel-reinhardt.de/"
-languageCode = "en-us"
-title = "Manuel Reinhardt Apps"
+languageCode = "de-de"
+title = "Manuel Reinhardt's Apps"
+author = "Manuel Reinhardt"
+sectionPagesMenu = "main"
+theme = "cocoa-eh"
 
-[permalinks]
-  app = "/:filename/"
+# [permalinks]
+  # apps = "/:filename/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Example blog"
+logofile = "/MR_Logo.png"
+faviconfile = "/MR_Logo.png"
+highlightjs = false
+progressively = false
+share = false
+extracssfiles = ["/style.css"]
+latestpostcount = 5
+email = "mail@manuel-reinhardt.de"
+usesmallsummarycard = true
+posts_navigation = true
+small_banner_logo = false

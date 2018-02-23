@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+
+{{ if or (.Site.Params.small_banner_logo) (.IsPage) }}
+<div class="header column">
+{{ else }}
+<div class="header header-home column">
+{{ end }}
+    <div class="container">
+        <a href="{{ .Site.BaseURL }}"><img class="logo" src="{{ .Site.Params.logofile | absURL }}" alt="logo" /></a>
+        <div class="content">
+            <a href="{{ .Site.BaseURL }}"><div class="name"><h1>{{ .Site.Title }}</h1></div></a>
+            <nav>
+                <ul>
+                    {{ range .Site.Menus.main -}}
+                        <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                    {{- end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

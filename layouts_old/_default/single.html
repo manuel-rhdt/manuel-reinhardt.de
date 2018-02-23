@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html class="{{ .Params.class }}">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>{{ .Title }}</title>
+		{{ .Hugo.Generator }}
+	  <meta name="Description" content="{{ .Params.description }}">
+		<meta name="author" content="Manuel Reinhardt">
+		<meta name="Keywords" content="Notrfufe, iPhone, App, Store, Safe, Calls, Sperrnummer, Kreditkarte, Handy">
+		<link rel="stylesheet" href="/style.css" type="text/css" media="screen">	
+    	<link rel="stylesheet" href="/style-transitions.css" type="text/css" media="screen">
+		<script type="text/javascript" src="/script.js"></script>
+	</head>
+	  
+	  <body onLoad="load()">
+			{{ partial "menu.html" . }}
+
+	  		<!-- <nav id="navbar">
+	  			<ul id="navigation-menu">
+	  				<li id="safe-calls"><a href="/safecalls/">Safe Calls</a>
+	  				</li><li id="my-cars"><a href="/mycars/">
+	  					My Cars</a>
+	  				</li><li id="my-cars-hd"><a href="/mycars_hd/">
+	  					My Cars HD</a>
+	  				</li></li><li id="baumfinder"><a href="/baumfinder/">
+	  					Baumfinder</a>
+	  				</li>
+	  			</ul>
+			  </nav> -->
+	  		
+    		<article class="content">
+	  			<h1>{{ .Title }}</h1>
+				<h2>{{ .Params.subtitle }}</h2>
+	  			{{ .Content }}
+			</article>
+			
+			<aside id="sidebar">
+				<div id="quality-sign-container">
+					<a href="http://www.telefon.de/apps_uebersicht.asp?dev=6672">
+						<img src="/cooldeveloper.png" id="quality-sign">
+					</a>
+				</div>
+				<div id="contact">
+					Bei Fragen und/oder Anregungen kontaktieren Sie mich bitte unter der E&#x2011;Mail Adresse <a href="mailto:{{ .Params.class }}@manuel-reinhardt.de" id="mail">{{ .Params.class }}@manuel&#x2011;reinhardt.de</a>.
+				</div><div id="icon-container">
+					<img src="{{ .Params.icon }}" id="icon" width=300 height=300>
+				</div>
+				<a href="{{ .Params.applink }}" onclick="window.open(this.href); return false;" onKeyPress="window.open(this.href); return false;"><img src="/download_button.png" id="download-button"></a>
+			</aside>
+			
+			
+			<div id="screenshots">
+				<h1>Screenshots:</h1>
+				{{ range .Params.screenshots }}
+				<img src="{{ . }}" width="{{ $.Params.width }}" height="{{ $.Params.height }}" class="screenshot">
+				{{ end }}
+			</div>
+				
+	</body>
+	
+</html>

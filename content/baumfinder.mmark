@@ -12,12 +12,12 @@ height: 230
 description: "Baumfinder - Ihr Begleiter beim Waldspaziergang!"
 
 menu: 
-  apps:
+  main:
     weight: 4
     identifier: baumfinder
 ---
 
-Das ideale Nachschlagwerk für Naturliebhaber und Waldspaziergänger, jetzt zum Einführungspreis! Erkennen sie anhand der Fotos für Blätter, Knospen, Stämme und vielen weiteren Merkmalen die heimischen Laub- und Nadelbäume, sowie Sträucher. Derzeit sind 140 Fotos für 40 Arten vorhanden. Die App wird stetig erweitert werden, insbesondere auch um blühende Bodenpflanzen und seltenere Bäume und Sträucher. Alle weiteren Updates werden kostenlos sein.
+Das ideale Nachschlagwerk für Naturliebhaber und Waldspaziergänger! Erkennen sie anhand der Fotos für Blätter, Knospen, Stämme und vielen weiteren Merkmalen die heimischen Laub- und Nadelbäume, sowie Sträucher. Derzeit sind 140 Fotos für 40 Arten vorhanden. Die App wird stetig erweitert werden, insbesondere auch um blühende Bodenpflanzen und seltenere Bäume und Sträucher. Alle weiteren Updates werden kostenlos sein.
 
 Diese App ist super für  
 - Naturliebhaber,
