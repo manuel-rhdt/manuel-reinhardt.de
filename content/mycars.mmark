@@ -4,7 +4,7 @@ subtitle: "Die Fuhrparkverwaltung"
 date: 2017-09-13T15:26:53+02:00
 draft: false
 class: "mycars"
-icon: "/mycars/icon.png"
+icon: "/mycars/icon.svg"
 applink: "http://itunes.apple.com/de/app/my-cars-die-fuhrparkverwaltung/id347852555?mt=8"
 screenshots: ["/mycars/screenshot1.png", "/mycars/screenshot2.png", "/mycars/screenshot3.png", "/mycars/screenshot4.png", "/mycars/screenshot5.png"]
 width: 160
