@@ -1,0 +1,22 @@
+{
+  "name": "manuel-reinhardt.de",
+  "version": "1.0.0",
+  "description": "Website for Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuel-rhdt/manuel-reinhardt.de.git"
+  },
+  "author": "Manuel Reinhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuel-rhdt/manuel-reinhardt.de/issues"
+  },
+  "homepage": "https://github.com/manuel-rhdt/manuel-reinhardt.de#readme",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}
