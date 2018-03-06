@@ -14,7 +14,7 @@
 			<div id="screenshots">
 				<h1>Screenshots:</h1>
 				{{ range .Params.screenshots }}
-				<img src="{{ . }}" class="screenshot">
+				<img class="screenshot cld-responsive" data-src="https://res.cloudinary.com/dgxhbfyux/image/upload/f_auto,q_auto,w_auto,c_scale,dpr_auto{{ . }}">
 				{{ end }}
 			</div>
 			<div id="contact">
